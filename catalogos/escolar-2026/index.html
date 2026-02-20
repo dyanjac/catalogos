@@ -1,39 +1,51 @@
-<!doctype html>
-<html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Catálogo Escolar 2026</title>
+
+  <title>Catálogo de Zapatos Escolares 2026 | Modelos y Precios</title>
+  <meta name="description" content="Catálogo de zapatos escolares 2026: modelos, tallas y precios. Navega por páginas y compra por WhatsApp. Envíos y atención rápida." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#22c55e" />
+
+  <!-- Canonical: evita que Google destaque GitHub/repo -->
+  <link rel="canonical" href="https://store.shoes-arianita/" />
+
+  <!-- Open Graph (Facebook / WhatsApp previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_PE" />
+  <meta property="og:site_name" content="Catálogo de Zapatos Escolares 2026" />
+  <meta property="og:title" content="Catálogo de Zapatos Escolares 2026 | Modelos y Precios" />
+  <meta property="og:description" content="Explora el catálogo por páginas. Compra por WhatsApp de forma rápida." />
+  <meta property="og:url" content="https://store.shoes-arianita/" />
+  <meta property="og:image" content="./assets/pages/001.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Catálogo de Zapatos Escolares 2026 | Modelos y Precios" />
+  <meta name="twitter:description" content="Catálogo 2026: modelos, tallas y precios. Compra por WhatsApp." />
+  <meta name="twitter:image" content="https://store.shoes-arianita//assets/pages/001.jpg" />
+
+  <!-- Favicon (crea estos archivos o quita estas líneas) -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Datos estructurados (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Catalog",
+    "name": "Catálogo de Zapatos Escolares 2026",
+    "description": "Catálogo de zapatos escolares 2026 con modelos, tallas y precios. Compra por WhatsApp.",
+    "inLanguage": "es-PE",
+    "url": "https://https://store.shoes-arianita/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Catálogo Zapatos Escolares"
+    }
+  }
+  </script>
 </head>
-<body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>📚 Catálogo Escolar 2026</h1>
-      <p>Explora el catálogo por páginas. Diseño moderno, alegre y responsivo, con acceso directo a WhatsApp para comprar.</p>
-
-      <div class="search">
-        <input id="searchInput" type="search" placeholder="Ir a página (ej: 12 o 012)..." inputmode="numeric" />
-        <button id="goBtn" class="btn primary">Ir</button>
-        <a class="btn whatsapp" id="waGeneral" target="_blank" rel="noopener">🟢 WhatsApp · Consultas</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="card">
-      <div class="card-head">
-        <h2>📄 Páginas</h2>
-        <div class="hint">Tip: abre una página y usa el botón “WhatsApp · Comprar esta página”.</div>
-      </div>
-      <div id="pagesGrid" class="grid"></div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <small>Catálogo Escolar 2026 · Listo para publicar</small>
-  </footer>
-
-  <script src="app.js"></script>
-</body>
-</html>
