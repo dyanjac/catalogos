@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>🗂️ Catálogos</h1>
+      <p>Elige un catálogo para comenzar a navegar.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Disponibles</h2>
+      <div class="grid" id="catalogosGrid"></div>
+        <a class="tile" href="catalogos/escolar-2026/index.html">
+          <div class="thumb">
+            <img src="catalogos/escolar-2026/assets/pages/001.jpg" alt="Catálogo Escolar 2026" loading="lazy">
+          </div>
+          <div class="meta">
+            <span class="badge accent">Catálogo Escolar 2026</span>
+            <span class="badge">Abrir</span>
+          </div>
+        </a>
+
+        <!-- Duplica este bloque por cada catálogo -->
+        <!--
+        <a class="tile" href="catalogos/navidad-2026/index.html">
+          <div class="thumb">
+            <img src="catalogos/navidad-2026/assets/pages/001.jpg" alt="Catálogo Navidad 2026" loading="lazy">
+          </div>
+          <div class="meta">
+            <span class="badge accent">Catálogo Navidad 2026</span>
+            <span class="badge">Abrir</span>
+          </div>
+        </a>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Selecciona un catálogo para empezar</small>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
