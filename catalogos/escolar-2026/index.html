@@ -49,3 +49,35 @@
   }
   </script>
 </head>
+
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>📚 Catálogo Escolar 2026</h1>
+      <p>Explora el catálogo por páginas. Diseño moderno, alegre y responsivo, con acceso directo a WhatsApp para comprar.</p>
+
+      <div class="search">
+        <input id="searchInput" type="search" placeholder="Ir a página (ej: 12 o 012)..." inputmode="numeric" />
+        <button id="goBtn" class="btn primary">Ir</button>
+        <a class="btn whatsapp" id="waGeneral" target="_blank" rel="noopener">🟢 WhatsApp · Consultas</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="card-head">
+        <h2>📄 Páginas</h2>
+        <div class="hint">Tip: abre una página y usa el botón “WhatsApp · Comprar esta página”.</div>
+      </div>
+      <div id="pagesGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Catálogo Escolar 2026 · Listo para publicar</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
